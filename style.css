@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web:wght@700&family=Jost:wght@400;900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{ 
+    width: 1165px;
+    outline: 1px red solid;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.flex{ 
+    display: flex;
+}
+ul{ 
+    list-style-type: none;
+}
+a{ 
+    text-decoration: none;
+}
+
+
+
+
+
+  /* Header  */
+.header{ 
+    background: #010632;
+}
+.list-contacts{ 
+    gap: 47px;
+    color: #fff;
+    font-family: Jost;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    gap: 47px;
+    justify-content: center;
+    align-items: center;
+}
+.list-contacts a{ 
+    color: #FFF;
+}
+.h1{ 
+    color: white;
+    font-family: Istok Web;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.stand{ 
+    color: #0075FF;
+}
+.ukraine{
+    color: #FFB800;
+}
+.padding{ 
+    padding-top: 22px;
+    padding-bottom: 18px;
+}
+
+
+/* Section-1  */
+
+.h2-main-section{ 
+    color: #0075FF;
+    text-align: center;
+    font-family: Jost;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
