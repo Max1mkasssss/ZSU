@@ -9,6 +9,9 @@ body{
     width: 1165px;
     outline: 1px red solid;
     margin: 0 auto;
+    padding: 0;
+}
+.padding-for-container{ 
     padding: 0 15px;
 }
 .flex{ 
@@ -55,7 +58,7 @@ a{
 .stand{ 
     color: #0075FF;
 }
-.ukraine{
+.ukraine, .yellow{
     color: #FFB800;
 }
 .padding{ 
@@ -65,7 +68,9 @@ a{
 
 
 /* Section-1  */
-
+.main-section{ 
+    margin-top: 0;
+}
 .h2-main-section{ 
     color: #0075FF;
     text-align: center;
@@ -74,4 +79,14 @@ a{
     font-style: normal;
     font-weight: 900;
     line-height: normal;
+}
+.background{ 
+    padding: 0;
+    background: url(/images/main-image.svg);
+    width: 1165px;
+    height: 715px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
